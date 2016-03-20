@@ -42,8 +42,8 @@ for iter = 1:1000
     prevMu = mu;
 
     for j = 1 : k        
-        mu(j) = weightAver(W(:, j), X);
-        sigma(j) = sqrt( weightAver(W(:, j), (X - mu(j)).^2) ); 
+        mu(j) = weightAvg(W(:, j), X);
+        sigma(j) = sqrt( weightAvg(W(:, j), (X - mu(j)).^2) ); 
     end
 
     if (mu == prevMu)
