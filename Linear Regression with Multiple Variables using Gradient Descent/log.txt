@@ -1,0 +1,113 @@
+Loading data ...
+End of Initialization ... Press enter to continue.
+
+Initail values 
+Alpha: 0.010000   Iterations: 400.000000
+
+Theta values 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+
+Running gradient descent ...
+Theta values after 5th iterations
+ 0.027205 
+ 0.015114 
+ 0.015566 
+Theta values after 10th iterations
+ 0.052296 
+ 0.029076 
+ 0.029967 
+End of gradient descent ... Press enter to continue
+
+Theta computed from gradient descent: 
+ 0.333651 
+ 0.205162 
+ 0.228762 
+
+Plot the convergence graph...
+End of Plot the convergence graph ... Press enter to continue
+
+Training is Done. Test can be started ... Press enter to continue
+Loading data ...
+Printing The Result...
+ Actual value = 0.616000        Predicted value = 0.614220 
+ Actual value = 0.597000        Predicted value = 0.552725 
+ Actual value = 0.421000        Predicted value = 0.449202 
+ Actual value = 0.596000        Predicted value = 0.517879 
+ Actual value = 0.684000        Predicted value = 0.600717 
+ Actual value = 0.445000        Predicted value = 0.549191 
+ Actual value = 0.559000        Predicted value = 0.592549 
+ Actual value = 0.586000        Predicted value = 0.513958 
+ Actual value = 0.536000        Predicted value = 0.536061 
+ Actual value = 0.339000        Predicted value = 0.514073 
+ Actual value = 0.524000        Predicted value = 0.530494 
+ Actual value = 0.442000        Predicted value = 0.518062 
+ Actual value = 0.640000        Predicted value = 0.552167 
+ Actual value = 0.812000        Predicted value = 0.607548 
+ Actual value = 0.732000        Predicted value = 0.629963 
+ Actual value = 0.392000        Predicted value = 0.477408 
+ Actual value = 0.000000        Predicted value = 0.452427 
+ Actual value = 0.520000        Predicted value = 0.504169 
+ Actual value = 0.783000        Predicted value = 0.587799 
+ Actual value = 0.587000        Predicted value = 0.578141 
+ Actual value = 0.736000        Predicted value = 0.620799 
+ Actual value = 0.648000        Predicted value = 0.611053 
+ Actual value = 0.663000        Predicted value = 0.618805 
+ Actual value = 0.313000        Predicted value = 0.555549 
+ Actual value = 0.349000        Predicted value = 0.520694 
+ Actual value = 0.366000        Predicted value = 0.564862 
+ Actual value = 0.572000        Predicted value = 0.530480 
+ Actual value = 0.446000        Predicted value = 0.541983 
+ Actual value = 0.460000        Predicted value = 0.565674 
+ Actual value = 0.370000        Predicted value = 0.537379 
+ Actual value = 0.619000        Predicted value = 0.575214 
+ Actual value = 0.650000        Predicted value = 0.560017 
+ Actual value = 0.558000        Predicted value = 0.564809 
+ Actual value = 0.688000        Predicted value = 0.598944 
+ Actual value = 0.418000        Predicted value = 0.488696 
+ Actual value = 0.560000        Predicted value = 0.559106 
+ Actual value = 0.621000        Predicted value = 0.603568 
+ Actual value = 0.647000        Predicted value = 0.605384 
+ Actual value = 0.803000        Predicted value = 0.623016 
+ Actual value = 0.293000        Predicted value = 0.474456 
+ Actual value = 0.331000        Predicted value = 0.531164 
+ Actual value = 0.555000        Predicted value = 0.617745 
+ Actual value = 0.587000        Predicted value = 0.593019 
+ Actual value = 0.910000        Predicted value = 0.687012 
+ Actual value = 0.459000        Predicted value = 0.572055 
+ Actual value = 0.374000        Predicted value = 0.518776 
+ Actual value = 0.502000        Predicted value = 0.626277 
+ Actual value = 0.653000        Predicted value = 0.579337 
+ Actual value = 0.355000        Predicted value = 0.509910 
+ Actual value = 0.491000        Predicted value = 0.567334 
+ Actual value = 0.500000        Predicted value = 0.507417 
+ Actual value = 0.579000        Predicted value = 0.589464 
+ Actual value = 0.243000        Predicted value = 0.423323 
+ Actual value = 0.622000        Predicted value = 0.614649 
+ Actual value = 0.640000        Predicted value = 0.570800 
+ Actual value = 0.705000        Predicted value = 0.578462 
+ Actual value = 0.671000        Predicted value = 0.618980 
+ Actual value = 0.354000        Predicted value = 0.486652 
+ Actual value = 0.602000        Predicted value = 0.516269 
+ Actual value = 0.598000        Predicted value = 0.580463 
+ Actual value = 0.584000        Predicted value = 0.568989 
+ Actual value = 0.440000        Predicted value = 0.586462 
+ Actual value = 0.481000        Predicted value = 0.582448 
+ Actual value = 0.461000        Predicted value = 0.496579 
+ Actual value = 0.689000        Predicted value = 0.594072 
+ Actual value = 0.081000        Predicted value = 0.430378 
+ Actual value = 0.278000        Predicted value = 0.490032 
+ Actual value = 1.000000        Predicted value = 0.699817 
+ Actual value = 0.542000        Predicted value = 0.568172 
+ Actual value = 0.481000        Predicted value = 0.559835 
+ Actual value = 0.263000        Predicted value = 0.480869 
+ Actual value = 0.542000        Predicted value = 0.607836 
+ Actual value = 0.593000        Predicted value = 0.591728 
+ Actual value = 0.594000        Predicted value = 0.579689 
+ Actual value = 0.687000        Predicted value = 0.571515 
+ Actual value = 0.685000        Predicted value = 0.594180 
+ Actual value = 0.544000        Predicted value = 0.604485 
+ Actual value = 0.906000        Predicted value = 0.658477 
+ Actual value = 0.581000        Predicted value = 0.539100 
+ Actual value = 0.557000        Predicted value = 0.576512 
