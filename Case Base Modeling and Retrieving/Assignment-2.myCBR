@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Assignment-2" author="Albert" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Food">
+    <desc name="Size" type="Symbol" mult="false" >
+      <symbol value="small" />
+      <symbol value="extraSmall" />
+      <symbol value="medium" />
+      <symbol value="large" />
+      <symbol value="extraLarge" />
+<fct name="SizeSim" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="small">
+<csym name="extraSmall" sim="0.75"/>
+<csym name="medium" sim="0.5"/>
+<csym name="large" sim="0.25"/>
+</qsym>
+<qsym name="extraSmall">
+<csym name="small" sim="0.75"/>
+<csym name="medium" sim="0.25"/>
+</qsym>
+<qsym name="medium">
+<csym name="small" sim="0.5"/>
+<csym name="extraSmall" sim="0.25"/>
+<csym name="large" sim="0.5"/>
+</qsym>
+<qsym name="large">
+<csym name="small" sim="0.25"/>
+<csym name="medium" sim="0.5"/>
+<csym name="extraLarge" sim="0.75"/>
+</qsym>
+<qsym name="extraLarge">
+<csym name="large" sim="0.75"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Cost" type="Float" min="0.0" max="10000.0" mult="false" >
+      <fct name="CostPolSim" type="Float" ltype="POLYNOMIAL_WITH" lparam="10.0" rtype="POLYNOMIAL_WITH" rparam="10.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="CostSim" type="Float" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="Calories" type="Integer" min="0" max="10000" mult="false" >
+      <fct name="CaloriesSim" type="Integer" ltype="SMOOTH_STEP_AT" lparam="-50.0" rtype="SMOOTH_STEP_AT" rparam="50.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Weight" type="Integer" min="0" max="10000" mult="false" >
+      <fct name="WeightSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="100.0" rtype="POLYNOMIAL_WITH" rparam="100.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Name" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="Food" type="EUCLIDEAN" active="true" >
+      <entry name="Cost" active="true" fct="CostPolSim" weight="1"/>
+      <entry name="Size" active="true" fct="SizeSim" weight="1.0"/>
+      <entry name="Calories" active="true" fct="CaloriesSim" weight="1"/>
+      <entry name="Weight" active="true" fct="WeightSim" weight="1"/>
+      <entry name="Name" active="false" fct="default function" weight="1"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Food" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="9" cb="Food"/>
+</Project>

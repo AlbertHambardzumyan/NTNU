@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Assignment-2" author="Albert" >
+<instances name="Food">
+  <instance id="Food #0" >
+    <att name="Size" value="extraSmall" />
+    <att name="Cost" value="3.25" />
+    <att name="Weight" value="50" />
+    <att name="Calories" value="78" />
+    <att name="Name" value="egg" />
+  </instance>
+  <instance id="Food #9" >
+    <att name="Size" value="medium" />
+    <att name="Cost" value="5.5" />
+    <att name="Weight" value="170" />
+    <att name="Calories" value="100" />
+    <att name="Name" value="yogurt" />
+  </instance>
+  <instance id="Food #1" >
+    <att name="Size" value="small" />
+    <att name="Cost" value="4.0" />
+    <att name="Weight" value="120" />
+    <att name="Calories" value="105" />
+    <att name="Name" value="banana" />
+  </instance>
+  <instance id="Food #2" >
+    <att name="Size" value="medium" />
+    <att name="Cost" value="21.0" />
+    <att name="Weight" value="145" />
+    <att name="Calories" value="118" />
+    <att name="Name" value="pea" />
+  </instance>
+  <instance id="Food #3" >
+    <att name="Size" value="large" />
+    <att name="Cost" value="75.0" />
+    <att name="Weight" value="100" />
+    <att name="Calories" value="204" />
+    <att name="Name" value="hamburger" />
+  </instance>
+  <instance id="Food #4" >
+    <att name="Size" value="small" />
+    <att name="Cost" value="4.0" />
+    <att name="Weight" value="96" />
+    <att name="Calories" value="45" />
+    <att name="Name" value="orange" />
+  </instance>
+  <instance id="Food #5" >
+    <att name="Size" value="extraSmall" />
+    <att name="Cost" value="8.0" />
+    <att name="Weight" value="107" />
+    <att name="Calories" value="285" />
+    <att name="Name" value="pizza" />
+  </instance>
+  <instance id="Food #6" >
+    <att name="Size" value="small" />
+    <att name="Cost" value="21.0" />
+    <att name="Weight" value="28" />
+    <att name="Calories" value="155" />
+    <att name="Name" value="chocolate" />
+  </instance>
+  <instance id="Food #7" >
+    <att name="Size" value="medium" />
+    <att name="Cost" value="51.0" />
+    <att name="Weight" value="140" />
+    <att name="Calories" value="231" />
+    <att name="Name" value="chicken breast" />
+  </instance>
+  <instance id="Food #8" >
+    <att name="Size" value="medium" />
+    <att name="Cost" value="4.0" />
+    <att name="Weight" value="182" />
+    <att name="Calories" value="95" />
+    <att name="Name" value="apple" />
+  </instance>
+</instances>
+<cb name="Food">
+     <case name="Food #9" />
+     <case name="Food #0" />
+     <case name="Food #1" />
+     <case name="Food #2" />
+     <case name="Food #4" />
+     <case name="Food #5" />
+     <case name="Food #6" />
+     <case name="Food #7" />
+     <case name="Food #8" />
+</cb>
+</Project>

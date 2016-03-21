@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Assignment-2" author="Albert" >
+<exp obj="Food" type="Concept" >
+  <desc>
+&#10;        </desc>
+</exp>
+<exp obj="Size" c="Food" type="AttributeDesc" >
+  <desc>
+Symbol type with at least small, medium, and large as allowed values        </desc>
+</exp>
+<exp obj="Cost" c="Food" type="AttributeDesc" >
+  <desc>
+Float representing the approximate value of the item        </desc>
+</exp>
+<exp obj="Weight" c="Food" type="AttributeDesc" >
+  <desc>
+integer representing the approximate gram of the item        </desc>
+</exp>
+<exp obj="Calories" c="Food" type="AttributeDesc" >
+  <desc>
+Integer representing the approximate calories of the item        </desc>
+</exp>
+<exp obj="Name" c="Food" type="AttributeDesc" >
+  <desc>
+Purely descriptive string.        </desc>
+</exp>
+<exp obj="small" c="Food" desc="Size" type="SimpleAttribute" >
+  <desc>
+&#10;        </desc>
+</exp>
+<exp obj="Food #1" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #13" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #14" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food10" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #12" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #9" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #14" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #11" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Food #0" c="Food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>
