@@ -1,0 +1,10 @@
+.recommendsClosest{
+    float: left;
+    margin: 0px 3px 0px 25px;
+    font-size: 12px;
+    color: #21568b
+}
+.recommendsClosest:hover{
+    background: #98CAA6;
+    cursor: pointer;
+}

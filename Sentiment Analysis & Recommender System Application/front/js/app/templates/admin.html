@@ -1,0 +1,26 @@
+<div>
+    <div>
+        <div>Sentimental Analysis</div>
+        <div><label>Hotel Id <input ng-model="sentiment.hotelId" placeholder="string"></label></div>
+        <div>
+            <button ng-click="sentimentalAnalysis()">Submit</button>
+        </div>
+    </div>
+    <div>
+        <div ng-bind="sentiment.response"></div>
+    </div>
+</div>
+
+<div style="margin-top: 50px">
+    <div>
+        <div>Collaborative Filtering</div>
+        <div><label>User Id <input ng-model="cf.userId" placeholder="number"></label></div>
+        <div>
+            <button ng-click="collaborativeFiltering()">Submit</button>
+        </div>
+    </div>
+    <div>
+        <div ng-bind="cf.response"></div>
+    </div>
+</div>
+

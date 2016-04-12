@@ -1,0 +1,64 @@
+<div class="gridListdemoBasicUsage">
+    <md-grid-list
+            md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6"
+            md-row-height-gt-md="2:1" md-row-height="2:2"
+            md-gutter="12px" md-gutter-gt-sm="8px" >
+
+        <!-- photo -->
+        <md-grid-tile class="gray" md-rowspan="4" md-colspan="4" md-colspan-sm="1" >
+            <div class="photo"></div>
+            <md-grid-tile-footer><h3>New York</h3></md-grid-tile-footer>
+        </md-grid-tile>
+
+        <!-- rank & rate -->
+        <md-grid-tile class="green" md-rowspan="1" md-colspan="2" md-colspan-sm="1">
+            <div layout-margin layout-fill style="text-align: center">
+                <div ui-view="rank"></div>
+            </div>
+            <md-grid-tile-footer>
+                <div>
+                    <div ui-view="rate" ></div>
+                </div>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+
+        <!-- map -->
+        <md-grid-tile class="gray" md-rowspan="2" md-colspan="2">
+            <div ui-view="map"></div>
+        </md-grid-tile>
+
+        <!-- details -->
+        <md-grid-tile class="gray" md-rowspan="2" md-colspan="2" md-rowspan="2">
+            <div ui-view="details"></div>
+            <md-grid-tile-footer>
+                <h3>Details</h3>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+
+        <!-- description -->
+        <md-grid-tile class="red" md-rowspan="2" md-colspan="4" md-colspan-sm="1" style="color: #ffffff">
+            <div layout-margin layout-fill style="text-align: center; font-size: 14px">
+                <div>Because we invented hip-hop and still do it better than any other city</div>
+                <div>Because we have the most iconic skyline</div>
+                <div>Because of Manhattan’s grid</div>
+                <div>Because our bars are open until 4am</div>
+                <div>Because New Yorkers live longer than almost anyone else</div>
+            </div>
+            <md-grid-tile-footer>
+                <h3>5 reasons why NYC is the greatest city in the world</h3>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+
+        <!-- recommender closest & highest rank -->
+        <md-grid-tile class="green"  md-colspan="6" md-rowspan="3">
+            <div ui-view="recommendClosest" ></div>
+            <md-grid-tile-footer><h3> Nearby ones with highest rank</h3></md-grid-tile-footer>
+        </md-grid-tile>
+
+        <!-- recommender CF -->
+        <md-grid-tile class="red"  md-colspan="6" md-rowspan="3">
+            <div ui-view="recommendCF" ></div>
+            <md-grid-tile-footer><h3>Collaborative Filtering Recommendations</h3></md-grid-tile-footer>
+        </md-grid-tile>
+    </md-grid-list>
+</div>

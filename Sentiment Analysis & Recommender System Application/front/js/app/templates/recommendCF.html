@@ -1,0 +1,7 @@
+<div ng-repeat="recommend in recommendsCF" layout="row" class="recommendsCF" ng-click="redirect(recommend.id)">
+    <div flex layout-wrap layout-margin ng-show="recommend.rate != 0">
+        <div flex>Name: <span ng-bind="recommend.name"></span></div>
+        <div flex>Address: <span ng-bind="recommend.street"></span> New York, USA</div>
+        <div flex>Rank: <span ng-bind="recommend.rate.toString().slice(0,4)"></span></div>
+    </div>
+</div>

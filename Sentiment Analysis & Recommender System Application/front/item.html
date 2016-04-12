@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="itemApp">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Insider</title>
+    <link rel="icon" href="./icons/favicon.ico" type="image/x-icon"/>
+
+    <!-- libs -->
+    <script src="./js/libs/angular.js"></script>
+    <script src="./js/libs/angular-resource.js"></script>
+    <script src="./js/libs/angular-ui-router.js"></script>
+    <script src="./js/libs/angular-animate.js"></script>
+    <script src="./js/libs/angular-aria.js"></script>
+    <script src="./js/libs/angular-messages.js"></script>
+    <script src="./js/libs/angular-material.js"></script>
+
+    <!-- app -->
+    <script src="js/app/item.js"></script>
+
+    <!-- controllers -->
+    <script src="./js/app/controllers/item.js"></script>
+    <script src="./js/app/controllers/map.js"></script>
+    <script src="./js/app/controllers/rate.js"></script>
+    <script src="./js/app/controllers/rank.js"></script>
+    <script src="./js/app/controllers/details.js"></script>
+    <script src="./js/app/controllers/recommenderClosest.js"></script>
+    <script src="./js/app/controllers/recommenderCF.js"></script>
+
+    <!-- services -->
+    <script src="js/app/services/storageItem.js"></script>
+    <script src="js/app/services/hotel.js"></script>
+    <script src="js/app/services/recommenderClosest.js"></script>
+    <script src="js/app/services/recommenderCF.js"></script>
+
+    <!-- styles -->
+    <link href="./css/angular-material.css" rel="stylesheet" type="text/css" />
+    <link href="./css/grid.css" rel="stylesheet" type="text/css" />
+    <link href="./css/map.css" rel="stylesheet" type="text/css" />
+    <link href="./css/photo.css" rel="stylesheet" type="text/css" />
+    <link href="./css/rate.css" rel="stylesheet" type="text/css" />
+    <link href="./css/recommendsClosest.css" rel="stylesheet" type="text/css" />
+    <link href="./css/recommendsCF.css" rel="stylesheet" type="text/css" />
+
+    <!-- map -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</head>
+<body ui-view="main">
+
+</body>
+</html>
