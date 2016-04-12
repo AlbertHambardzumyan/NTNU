@@ -1,0 +1,41 @@
+{
+  "name": "Insider",
+  "version": "1.0.0",
+  "description": "Web Intelligence Application",
+  "keywords": [
+    "Intelligence",
+    "Node.js",
+    "application",
+    "Recommender"
+  ],
+  "author": {
+    "name": "Albert Hambardzumyan",
+    "email": "hambardzumyan.albert@gmail.com",
+    "url": "https://www.linkedin.com/topic/group/binomial?gid=6941931"
+  },
+  "homepage": "https://www.linkedin.com/topic/group/binomial?gid=6941931",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertHambardzumyan"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "~2.3.2",
+    "body-parser": "^1.13.3",
+    "express": "~4.2.0",
+    "python-shell": "0.3.0",
+    "lodash-node": "~2.4.1",
+    "mysql": "^2.9.0",
+    "oauth2-server": "2.3.0"
+  },
+  "devDependencies": {
+
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
