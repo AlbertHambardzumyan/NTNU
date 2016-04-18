@@ -26,3 +26,10 @@ Linear Regression with Multiple Variables using Gradient Descent.
 
 	Purpose: Gain insight into (a) basic machine learning concepts, and (b) how a simple regression problem
 	can be solved using linear regression.
+	
+
+	
+Client Server Multi Thread Communication.
+
+	Purpose: Gain insight into (a) basic communication with threads between client and server for
+	Android game.	
