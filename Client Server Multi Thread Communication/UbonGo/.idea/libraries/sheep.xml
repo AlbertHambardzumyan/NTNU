@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sheep">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/sheep.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/sheep.jar!/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/sheep.jar!/" />
+    </SOURCES>
+  </library>
+</component>
