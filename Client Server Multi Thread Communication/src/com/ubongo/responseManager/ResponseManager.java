@@ -1,6 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo.responseManager;
 
-
+/**
+ * @author Albert Hambardzumyan
+ */
 import com.ubongo.dataTransfer.ResponsePackage;
 
 public class ResponseManager {

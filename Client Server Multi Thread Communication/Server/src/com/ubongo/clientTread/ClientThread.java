@@ -1,5 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo.clientTread;
 
+/**
+ * @author Albert Hambardzumyan
+ */
 import com.google.gson.Gson;
 import com.ubongo.dataTransfer.RequestPackage;
 import com.ubongo.gameHolder.GameHolder;

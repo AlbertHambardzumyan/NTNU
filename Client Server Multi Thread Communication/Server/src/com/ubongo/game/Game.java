@@ -1,6 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo.game;
 
-
+/**
+ * @author Albert Hambardzumyan
+ */
 import com.ubongo.player.Player;
 
 import java.io.PrintWriter;

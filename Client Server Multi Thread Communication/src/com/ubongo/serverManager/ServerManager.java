@@ -1,6 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo.serverManager;
 
-
+/**
+ * @author Albert Hambardzumyan
+ */
 import android.os.AsyncTask;
 import com.ubongo.config.Config;
 import com.ubongo.dataTransfer.RequestPackage;

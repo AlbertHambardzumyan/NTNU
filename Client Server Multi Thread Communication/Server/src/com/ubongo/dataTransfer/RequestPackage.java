@@ -1,6 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo.dataTransfer;
 
-
+/**
+ * @author Albert Hambardzumyan
+ */
 import java.io.Serializable;
 
 public class RequestPackage implements Serializable {

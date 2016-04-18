@@ -1,5 +1,11 @@
+// Copyright (c) 2016 Albert Hambardzumyan
+// All rights reserved.
+// This software is released under the BSD license.
 package com.ubongo;
 
+/**
+ * @author Albert Hambardzumyan
+ */
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
