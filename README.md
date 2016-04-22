@@ -33,3 +33,12 @@ Client Server Multi Thread Communication.
 
 	Purpose: Gain insight into (a) basic communication with threads between client and server for
 	Android game.	
+	
+	
+	
+Optical Charachter Recognition
+
+	Learning Objectives: Gain experience with (a) how to set up a pipeline for a difficult
+	machine learning problem, and (b) how to read documentation of a machine learning library
+	and use it to solve a problem.
+	
