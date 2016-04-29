@@ -42,3 +42,13 @@ Optical Charachter Recognition
 	machine learning problem, and (b) how to read documentation of a machine learning library
 	and use it to solve a problem.
 	
+	
+	
+Solving NP-Complete problem using Distributed Multi-Agents
+
+	Learning Objectives: Gain experience with (a) how to implement a multi-agent system capable 
+	of distributed problem solving. Several types of agents should be implemented, and these need 
+	to cooperate in order to solve the problem, (b) how to use Game Theory concept as a main driver 
+	to design a MAS, and (c) how to read documentation of a multi agent system library and use it to 
+	solve a problem.
+	
