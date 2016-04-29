@@ -1,0 +1,244 @@
+Computing Strongly Connected Components ...
+Tarjan 502709.0 nanoseconds
+Done ...
+SCC: [[5, 2], [4, 3, 1], [0]]
+Needs 3 Agents
+Apr 27, 2016 7:43:24 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.4.0 - revision 6778 of 21-12-2015 12:24:43
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+Apr 27, 2016 7:43:25 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://129.241.123.122:1099
+
+Apr 27, 2016 7:43:25 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+Apr 27, 2016 7:43:25 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+Apr 27, 2016 7:43:25 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+Apr 27, 2016 7:43:25 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+Apr 27, 2016 7:43:25 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+Apr 27, 2016 7:43:25 PM jade.mtp.http.HTTPServer <init>
+INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+Apr 27, 2016 7:43:25 PM jade.core.messaging.MessagingService boot
+INFO: MTP addresses:
+http://Alik-PC:7778/acc
+Apr 27, 2016 7:43:25 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@129.241.123.122 is ready.
+--------------------------------------------
+
+Registered myself in the yellow pages: ( agent-identifier :name Deliverer@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Local Name: Deliverer
+GUID is: Deliverer@129.241.123.122:1099/JADE
+Addresses: 
+- http://Alik-PC:7778/acc
+
+Registered myself in the yellow pages: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Local Name: A1
+GUID: A1@129.241.123.122:1099/JADE
+Addresses: 
+- http://Alik-PC:7778/acc
+
+Registered myself in the yellow pages: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Local Name: A3
+GUID: A3@129.241.123.122:1099/JADE
+Addresses: 
+- http://Alik-PC:7778/acc
+
+Registered myself in the yellow pages: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Local Name: A2
+GUID: A2@129.241.123.122:1099/JADE
+Addresses: 
+- http://Alik-PC:7778/acc
+
+Registered myself in the yellow pages: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Local Name: A0
+GUID: A0@129.241.123.122:1099/JADE
+Addresses: 
+- http://Alik-PC:7778/acc
+
+Search for Agent ...
+
+A1: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[0]}
+Performative: 3
+Search is Done ...
+Found Agents ... 
+Broadcasting ...
+Sending message to Agent 0
+Sending message to Agent 1
+Sending message to Agent 2
+Sending message to Agent 3
+A1: got CFP message ...
+
+A3: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[0]}
+
+A0: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[0]}
+Performative: 3
+
+A2: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[0]}
+Performative: 3
+Performative: 3
+A0: got CFP message ...
+A2: got CFP message ...
+A3: got CFP message ...
+
+A3: got message: null
+Performative: 15
+
+A1: got message: null
+Performative: 15
+
+A2: got message: null
+Performative: 0
+Got Broadcast Answer from Agent: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 4
+Got Broadcast Answer from Agent: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 8
+Got Broadcast Answer from Agent: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 2
+Got Broadcast Answer from Agent: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 2
+Sending reject to: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending Accept to: A2
+A1: got reject message ...
+A3: got reject message ...
+A2: got accept message ...
+[0]
+
+Colored Vertices: 0 
+Colors : 1 0 0 0 0 0 
+A2: 404884.0 nanoseconds
+A2: problem solving is Done ...
+Got Feedback. from: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc )) Problem is Solved
+
+Search for Agent ...
+A0: got reject message ...
+
+A0: got message: null
+Performative: 15
+
+A1: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[4,3,1]}
+Performative: 3
+Search is Done ...
+Found Agents ... 
+Broadcasting ...
+Sending message to Agent 0
+Sending message to Agent 1
+Sending message to Agent 2
+Sending message to Agent 3
+A1: got CFP message ...
+A2: got CFP message ...
+
+A2: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[4,3,1]}
+Performative: 3
+
+A3: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[4,3,1]}
+Performative: 3
+
+A0: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[4,3,1]}
+Performative: 3
+A3: got CFP message ...
+Got Broadcast Answer from Agent: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 3
+Got Broadcast Answer from Agent: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 5
+A0: got CFP message ...
+Got Broadcast Answer from Agent: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 9
+Got Broadcast Answer from Agent: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 1
+Sending reject to: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+A1: got reject message ...
+Sending Accept to: A0
+A2: got reject message ...
+A0: got accept message ...
+
+A1: got message: null
+Performative: 15
+
+A2: got message: null
+Performative: 15
+
+A0: got message: null
+Performative: 0
+
+A3: got message: null
+Performative: 15
+[4, 3, 1]
+
+Colored Vertices: 4 3 1 
+Colors : 1 3 0 2 1 0 
+A0: 1649429.0 nanoseconds
+A0: problem solving is Done ...
+Got Feedback. from: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc )) Problem is Solved
+
+Search for Agent ...
+A3: got reject message ...
+Search is Done ...
+Found Agents ... 
+Broadcasting ...
+Sending message to Agent 0
+Sending message to Agent 1
+Sending message to Agent 2
+Sending message to Agent 3
+A1: got CFP message ...
+A3: got CFP message ...
+A2: got CFP message ...
+A0: got CFP message ...
+Got Broadcast Answer from Agent: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 5
+Got Broadcast Answer from Agent: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 1
+Got Broadcast Answer from Agent: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 3
+
+A1: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[5,2]}
+Performative: 3
+
+A3: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[5,2]}
+Performative: 3
+
+A2: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[5,2]}
+Performative: 3
+
+A0: got message: {"graph":[[0,1,0,0,0,0],[0,0,1,1,1,0],[0,0,0,0,0,1],[0,0,0,0,1,0],[0,1,0,0,0,1],[0,0,1,0,0,0]],"numOfColors":3,"component":[5,2]}
+Performative: 3
+Got Broadcast Answer from Agent: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+ Requires: 7
+Sending reject to: ( agent-identifier :name A1@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A2@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+Sending reject to: ( agent-identifier :name A0@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc ))
+A2: got reject message ...
+Sending Accept to: A3
+A1: got reject message ...
+A3: got accept message ...
+[5, 2]
+
+Colored Vertices: 5 2 
+Colors : 1 3 1 2 1 2 
+A3: 220105.0 nanoseconds
+A0: got reject message ...
+A3: problem solving is Done ...
+Got Feedback. from: ( agent-identifier :name A3@129.241.123.122:1099/JADE  :addresses (sequence http://Alik-PC:7778/acc )) Problem is Solved
+
+A2: got message: null
+Performative: 15
+
+A1: got message: null
+Performative: 15
+
+A3: got message: null
+Performative: 0
+
+A0: got message: null
+Performative: 15
